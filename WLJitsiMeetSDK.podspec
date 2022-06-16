@@ -24,12 +24,12 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/a13377766460/WLJitsiMeetSDK.git", :tag => "#{spec.version}" }
 
-
-  # spec.source_files  = "WLJitsiMeetSDK", "WLJitsiMeetSDK/**/*.{h,m}"
   spec.exclude_files = "WLJitsiMeetSDK/WLJitsiMeetSDK.podspec"
-  s.vendored_frameworks = "WLJitsiMeetSDK/WebRTC.xcframework","WLJitsiMeetSDK/JitsiMeetSDK.xcframework"
+  spec.vendored_frameworks = "WebRTC.xcframework", "JitsiMeetSDK.xcframework"
   spec.requires_arc = true
   
+  #支持架构配置
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64'}
   spec.dependency "Giphy", "~> 2.1.20"
 
 end
