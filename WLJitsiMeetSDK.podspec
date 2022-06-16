@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "WLJitsiMeetSDK", "WLJitsiMeetSDK/**/*.{h,m}"
   spec.exclude_files = "WLJitsiMeetSDK/WLJitsiMeetSDK.podspec"
-
+  s.vendored_frameworks = "WLJitsiMeetSDK/WebRTC.xcframework","WLJitsiMeetSDK/JitsiMeetSDK.xcframework"
   spec.requires_arc = true
   
   spec.dependency "Giphy", "~> 2.1.20"
