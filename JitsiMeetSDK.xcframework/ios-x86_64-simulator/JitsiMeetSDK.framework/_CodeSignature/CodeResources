@@ -435,6 +435,10 @@
 		<data>
 		+Dp7CwVKnqsnMq2xgna8HyuoaVM=
 		</data>
+		<key>Headers/InviteMode.m</key>
+		<data>
+		YQpa/gaIakv/T7eXRo218Mr4R+k=
+		</data>
 		<key>Headers/JitsiAudioSession.h</key>
 		<data>
 		jTBUCM35eQ49CSdOK6xzP4aScF4=
@@ -1183,6 +1187,13 @@
 			<key>hash2</key>
 			<data>
 			T00GEoNj5HwCR2yLZpfaL5AmjEgGBQak6RzyjgSULaY=
+			</data>
+		</dict>
+		<key>Headers/InviteMode.m</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			te7gQAkZY7OGSe2aiEsw5FIc1tn3y1BaRcACIiQiIaY=
 			</data>
 		</dict>
 		<key>Headers/JitsiAudioSession.h</key>
