@@ -73,6 +73,8 @@
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
 
 @property (nonatomic, nullable) JitsiMeetUserInfo *userInfo;
+@property (nonatomic, nullable) NSDictionary *config;
+@property (nonatomic, nullable) JitsiMeetConferenceOptionsBuilder *builder;
 
 + (instancetype _Nonnull)fromBuilder:(void (^_Nonnull)(JitsiMeetConferenceOptionsBuilder *_Nonnull))initBlock;
 - (instancetype _Nonnull)init NS_UNAVAILABLE;

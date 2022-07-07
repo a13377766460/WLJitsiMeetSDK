@@ -22,3 +22,4 @@
 #import <JitsiMeetSDK/JitsiMeetBaseLogHandler.h>
 #import <JitsiMeetSDK/JitsiAudioSession.h>
 #import <JitsiMeetSDK/InfoPlistUtil.h>
+#import <JitsiMeetSDK/InviteMode.h>
