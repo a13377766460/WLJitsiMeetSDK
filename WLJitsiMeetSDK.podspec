@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WLJitsiMeetSDK"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.swift_versions = "5.0"
   spec.summary      = "视频会议SDK"
 
@@ -19,7 +19,6 @@ Pod::Spec.new do |spec|
   
   spec.author             = { "WangLu" => "444686596@qq.com" }
   
-
   spec.platform     = :ios, "12.0"
 
   spec.source       = { :git => "https://github.com/a13377766460/WLJitsiMeetSDK.git", :tag => "#{spec.version}" }
