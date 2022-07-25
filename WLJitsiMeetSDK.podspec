@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WLJitsiMeetSDK"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.10"
   spec.swift_versions = "5.0"
   spec.summary      = "视频会议SDK"
 
